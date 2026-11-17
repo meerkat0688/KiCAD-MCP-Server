@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="670" viewBox="0 0 1180 670" role="img" aria-label="Bin monitor prototype architecture">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#456179"/></marker></defs>
+<style>text{font-family:Arial,sans-serif;fill:#18334c}.box{fill:#f4f8fb;stroke:#adc3d5;stroke-width:2}.line{fill:none;stroke:#456179;stroke-width:2;marker-end:url(#arrow)}.small{font-size:16px}.head{font-size:23px;font-weight:bold}</style>
+<rect width="100%" height="100%" fill="white"/>
+
+<text x="40" y="46" font-size="30" font-weight="bold">Bin full-height monitor · Architecture v0.3</text>
+<text x="40" y="79" class="small">130 cm tall · 70 cm wide · no lid · hardware target below US$50</text>
+<rect class="box" x="40" y="150" width="235" height="130" rx="12"/><text x="60" y="185" class="head">VL53L1X carrier</text><text x="60" y="218" class="small">Pololu 3415 · 3.3 V VIN</text><text x="60" y="248" class="small">5-second fresh samples</text>
+<rect class="box" x="355" y="150" width="255" height="130" rx="12"/><text x="375" y="185" class="head">XIAO ESP32C3</text><text x="375" y="218" class="small">Median / hold timers / journal</text><text x="375" y="248" class="small">Wi-Fi · local diagnostics</text>
+<path class="line" d="M275 215 H350"/><text x="284" y="197" class="small">I²C</text>
+<rect class="box" x="710" y="150" width="220" height="130" rx="12"/><text x="730" y="185" class="head">Notify backend</text><text x="730" y="218" class="small">Durable event + retry key</text><text x="730" y="248" class="small">LINE token stays here</text>
+<path class="line" d="M610 215 H705"/><text x="623" y="197" class="small">HTTPS</text>
+<rect class="box" x="710" y="350" width="220" height="95" rx="12"/><text x="733" y="388" class="head">LINE API</text><text x="733" y="418" class="small">Messaging API push</text><path class="line" d="M820 280 V345"/>
+<rect class="box" x="980" y="350" width="160" height="95" rx="12"/><text x="1000" y="388" class="head">Test group</text><text x="1000" y="418" class="small">Visible receipt</text><path class="line" d="M930 399 H975"/>
+<rect class="box" x="355" y="350" width="255" height="95" rx="12"/><text x="375" y="388" class="head">Qualified USB 5 V</text><text x="375" y="418" class="small">Supply capability at least 2 A</text><path class="line" d="M482 350 V285"/>
+<text x="40" y="505" class="head">Decision thresholds at nominal H = 130 cm</text>
+<text x="40" y="540" class="small">FULL: d ≤ 26 cm for 60 s. CLEAR: d ≥ 65 cm for 120 s. Invalid samples reset both timers.</text>
+<text x="40" y="572" class="small">30 s without valid readings → SENSOR_FAULT. Preserve the full-event latch across faults and reboots.</text>
+<text x="40" y="615" class="small">DRAFT: physical tests and LINE acceptance NOT RUN. Actual H requires calibration. Height estimate is not volume.</text>
+</svg>

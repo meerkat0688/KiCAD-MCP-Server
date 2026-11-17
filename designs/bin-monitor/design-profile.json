@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "design_revision": "v0.3-carrier-draft",
+  "date": "2026-11-17",
+  "user_inputs": {
+    "bin_height_cm": 130,
+    "width_cm": 70,
+    "lid": false,
+    "hardware_budget_usd_exclusive": 50
+  },
+  "inventory": {
+    "controller_owned": false,
+    "sensor_owned": false
+  },
+  "assumptions": {
+    "nominal_effective_height_mm": 1300,
+    "effective_height_measured": false,
+    "indoors_dry": true,
+    "wifi_2_4ghz": true
+  },
+  "controller": {
+    "manufacturer": "Seeed Studio",
+    "sku": "113991054",
+    "sda_gpio": 6,
+    "scl_gpio": 7,
+    "optional_xshut_gpio": 3
+  },
+  "sensor": {
+    "manufacturer": "Pololu",
+    "sku": "3415",
+    "ic": "VL53L1X",
+    "vin_v": 3.3,
+    "i2c_address_7bit": "0x29",
+    "i2c_hz": 100000,
+    "mode": "long",
+    "timing_budget_ms": 100,
+    "roi": "full",
+    "field_validated": false
+  },
+  "detector": {
+    "sample_period_s": 5,
+    "median_samples": 3,
+    "full_threshold_pct": 80,
+    "full_hold_s": 60,
+    "clear_threshold_pct": 50,
+    "clear_hold_s": 120,
+    "sensor_fault_s": 30
+  },
+  "proposals": {
+    "clear_window_on_invalid": true,
+    "resend_requalify_full_s": 60,
+    "model_max_sample_gap_s": 7.5
+  },
+  "known_module_subtotal_usd": 27.85,
+  "module_only_accessory_allocations_usd": 16,
+  "module_prototype_estimate_usd": 43.85,
+  "planned_hardware_usd": null,
+  "cost_acceptance": "BLOCKED; carrier components and PCB unquoted",
+  "carrier": {
+    "project": "kicad/bin_monitor_carrier.kicad_pro",
+    "board_mm": [
+      50,
+      38
+    ],
+    "layers": 2,
+    "status_led_gpio": 4,
+    "sensor_j1": {
+      "1": "+3V3",
+      "2": "GND",
+      "3": "I2C_SDA",
+      "4": "I2C_SCL"
+    }
+  },
+  "custom_pcb_created": true,
+  "erc": "PASS_STATIC",
+  "drc": "PASS_STATIC",
+  "product_accepted": false
+}

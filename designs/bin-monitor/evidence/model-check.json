@@ -1,0 +1,30 @@
+{
+  "executed_at": "2026-11-17T16:40:33.487592+08:00",
+  "scope": "Offline specification model and static engineering package only",
+  "python": "3.12.4",
+  "tests_run": 20,
+  "failures": 0,
+  "errors": 0,
+  "model_result": "PASS",
+  "static_checks": [
+    "23 acceptance IDs covered",
+    "User dimensions and budget reflected",
+    "Cost/threshold arithmetic",
+    "SVG XML and local links",
+    "No physical acceptance marked PASS"
+  ],
+  "physical_acceptance": "NOT RUN",
+  "line_acceptance": "NOT RUN; setup BLOCKED",
+  "erc": "PASS_STATIC",
+  "drc": "PASS_STATIC",
+  "kicad_check_record": "kicad/review/validation.json",
+  "product_complete": false,
+  "sha256": {
+    "reference-model/detector.py": "8395892fb88696e37ed465b9aef0ec4eed35b3085220c0be56085ff5c2df1f55",
+    "reference-model/test_detector.py": "6fcae096ba4b2a4278f299a3ce58a2670f93e33d98105dc82c242c69496238a9",
+    "design-profile.json": "9ede307bf87c1358b032043fc6880b208d9031f7c5d8173ea757bd349533d5aa",
+    "requirements.md": "a3327104f30c90e4d24b62e3db82e0d1f35dc0d70c10a1cbd9861d97ce827d4e",
+    "requirements-update.md": "bd9020b0982a7313115a130cfcd4f4c8ee02bf987a20f741d88fc1a8532881a0"
+  },
+  "test_output": "test_bad_measurements_do_not_become_full (bin_monitor_model_tests.DetectorTests.test_bad_measurements_do_not_become_full) ... ok\ntest_bad_sensor_status_overrides_plausible_distance (bin_monitor_model_tests.DetectorTests.test_bad_sensor_status_overrides_plausible_distance) ... ok\ntest_clear_requires_one_hundred_twenty_filtered_seconds (bin_monitor_model_tests.DetectorTests.test_clear_requires_one_hundred_twenty_filtered_seconds) ... ok\ntest_distance_beyond_calibrated_bottom_clamps_to_zero_height (bin_monitor_model_tests.DetectorTests.test_distance_beyond_calibrated_bottom_clamps_to_zero_height) ... ok\ntest_fault_exactly_thirty_seconds_after_last_valid (bin_monitor_model_tests.DetectorTests.test_fault_exactly_thirty_seconds_after_last_valid) ... ok\ntest_fault_preserves_full_event_and_requires_new_warmup (bin_monitor_model_tests.DetectorTests.test_fault_preserves_full_event_and_requires_new_warmup) ... ok\ntest_fault_without_any_sample (bin_monitor_model_tests.DetectorTests.test_fault_without_any_sample) ... ok\ntest_first_filtered_threshold_starts_sixty_seconds (bin_monitor_model_tests.DetectorTests.test_first_filtered_threshold_starts_sixty_seconds) ... ok\ntest_hysteresis_holds_both_prior_states (bin_monitor_model_tests.DetectorTests.test_hysteresis_holds_both_prior_states) ... ok\ntest_invalid_resets_clear_timer_without_dropping_latch (bin_monitor_model_tests.DetectorTests.test_invalid_resets_clear_timer_without_dropping_latch) ... ok\ntest_invalid_resets_full_timer_and_window (bin_monitor_model_tests.DetectorTests.test_invalid_resets_full_timer_and_window) ... ok\ntest_missed_schedule_does_not_count_as_continuous_full (bin_monitor_model_tests.DetectorTests.test_missed_schedule_does_not_count_as_continuous_full) ... ok\ntest_new_cycle_has_new_id (bin_monitor_model_tests.DetectorTests.test_new_cycle_has_new_id) ... ok\ntest_no_calibration_no_decision (bin_monitor_model_tests.DetectorTests.test_no_calibration_no_decision) ... ok\ntest_no_new_event_during_two_hours_full (bin_monitor_model_tests.DetectorTests.test_no_new_event_during_two_hours_full) ... ok\ntest_reboot_preserves_identity_but_not_timers_or_samples (bin_monitor_model_tests.DetectorTests.test_reboot_preserves_identity_but_not_timers_or_samples) ... ok\ntest_rejects_invalid_calibration_and_inconsistent_restore (bin_monitor_model_tests.DetectorTests.test_rejects_invalid_calibration_and_inconsistent_restore) ... ok\ntest_rejects_reused_or_reversed_sample_time (bin_monitor_model_tests.DetectorTests.test_rejects_reused_or_reversed_sample_time) ... ok\ntest_three_new_values_required (bin_monitor_model_tests.DetectorTests.test_three_new_values_required) ... ok\ntest_twenty_short_obstructions_do_not_latch (bin_monitor_model_tests.DetectorTests.test_twenty_short_obstructions_do_not_latch) ... ok\n\n----------------------------------------------------------------------\nRan 20 tests in 0.004s\n\nOK\n"
+}

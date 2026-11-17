@@ -1,0 +1,20 @@
+{
+  "example_only": true,
+  "device_id": "BIN-001",
+  "revision": 42,
+  "boot_id": "example-boot-id",
+  "event_id": "00000000-0000-4000-8000-000000000001",
+  "event_type": "FULL",
+  "height_state": "FULL",
+  "sensor_health": "OK",
+  "sample_age_ms": 200,
+  "calibration_h_mm": 1300,
+  "filtered_distance_mm": 195,
+  "estimated_height_pct": 85,
+  "clock_quality": "UNSYNCED",
+  "detected_at_utc": null,
+  "detected_monotonic_ms": 70000,
+  "timezone": "Asia/Taipei",
+  "reconfirmed_after_reconnect": false,
+  "cancelled_event_ids": []
+}

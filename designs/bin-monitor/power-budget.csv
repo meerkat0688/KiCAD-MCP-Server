@@ -1,0 +1,7 @@
+﻿load,rail_v,allocated_peak_ma,datasheet_reference_ma,basis,measured
+XIAO complete controller,3.3,400,335,"335mA ESP32-C3 RF test reference S03; remainder board overhead allocation, not guaranteed max",NOT RUN
+VL53L1X carrier,3.3 VIN,40,40,Pololu S02 peak; typical active20mA; configuration-dependent,NOT RUN
+Contingency,3.3,60,,Design allocation,NOT RUN
+3V3 budget total,3.3,500,,1.65W rail budget; must verify regulator thermal/transient capacity,NOT RUN
+USB input planning allowance,5.0,600,,3W input allowance; conversion/board performance not measured,NOT RUN
+External supply minimum rating,5.0,2000,,"IN-05 supply capability, not actual consumption",NOT RUN

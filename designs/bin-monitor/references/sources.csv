@@ -1,0 +1,20 @@
+﻿id,title,url,use,access_date
+S01,Seeed XIAO ESP32C3 guide and pin map,https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/,D4 GPIO6 SDA; D5 GPIO7 SCL; 3V3 output; USB-C; included antenna,2026-11-17
+S02,Pololu 3415 VL53L1X carrier,https://www.pololu.com/product/3415,Carrier voltage/logic; XSHUT; price USD22.95 qty1 before tax/shipping,2026-11-17
+S03,Espressif ESP32-C3 datasheet v2.5,https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf,Section5.6.1 RF TX reference 335mA; not whole-board guaranteed maximum,2026-11-17
+S04,ST VL53L1X DS12385 Rev8,https://www.st.com/resource/en/datasheet/vl53l1x.pdf,Sections7.3-7.6; range/ambient/ROI/error tradeoff; 40mm minimum,2026-11-17
+S05,DFRobot SEN0311 A02YYUW specifications,https://wiki.dfrobot.com/sen0311/,3-450cm flat object; 60degree angle; UART; alternate only,2026-11-17
+S06,Espressif ESP32-C3-DevKitM-1 guide,https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c3/esp32-c3-devkitm-1/user_guide.html,Backup controller; N4X ordering; old non-N4X EOL,2026-11-17
+S07,Pololu 3692 VL53L4CD carrier specifications,https://www.pololu.com/product/3692/specs,1.2m nominal maximum; excludes 1.3m empty bin geometry,2026-11-17
+S08,ST VL53L4CD DS13812 Rev8,https://www.st.com/resource/en/datasheet/vl53l4cd.pdf,Tables16/17 reflectance-dependent range and accuracy,2026-11-17
+S09,LINE retry API requests,https://developers.line.biz/en/docs/messaging-api/retrying-api-request/,Same retry key/body/recipient; 24h retry window; accepted200/409,2026-11-17
+S10,LINE group chats,https://developers.line.biz/en/docs/messaging-api/group-chats/,Group join and webhook groupId; requires authorized setup,2026-11-17
+S11,LINE sending messages,https://developers.line.biz/en/docs/messaging-api/sending-messages/,Push messages and group recipient-based message counting,2026-11-17
+S12,Pololu carrier schematic,https://www.pololu.com/file/0J1188/vl53l0x-vl53l1x-vl53l3cx-vl53l4cd-time-of-flight-sensor-schematic.pdf,"Carrier regulator, I2C shifting and internal pullups; use silkscreen labels",2026-11-17
+S13,Seeed XIAO ESP32C3 SKU113991054 listing,https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html,USD4.90 displayed single unit; unsoldered header variant; before tax/shipping,2026-11-17
+S14,Seeed XIAO official symbol and footprint archives,https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/#resources,Project-local derivative14-pin symbol/THT pattern; source hashes in kicad/library-provenance.json,2026-11-17
+S15,JST XH connector datasheet,https://www.jst-mfg.com/product/pdf/eng/eXH.pdf,B4B-XH-A board header; XHP-4 housing and SXH-001T-P0.6 contacts;2.5mm pitch,2026-11-17
+S16,TDK C2012X5R1A106K085AB,https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X5R1A106K085AB,C1 10uF10V X5R0805; sourcing and effective capacitance to verify,2026-11-17
+S17,Murata MLCC component listing,https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr,C2 GRM188R71C104KA01D100nF16V X7R0603; package suffixD,2026-11-17
+S18,Yageo RC0603FR-071KL spec sheet,https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL,R1 1k1%0.1W0603,2026-11-17
+S19,Kingbright APT1608SGC datasheet,https://www.kingbrightusa.com/images/catalog/SPEC/APT1608SGC.pdf,Green0603 LED; typical2.2V at20mA; actual low-current brightness NOT RUN,2026-11-17

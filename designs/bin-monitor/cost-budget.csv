@@ -1,0 +1,12 @@
+﻿category,usd,basis,status
+Core device modules,27.85,A1=4.90 + A2=22.95 official web prices before shipping/tax,Price snapshot; not purchased
+Enclosure and mounting,5.00,"Allocation, no quote",BLOCKED
+Power supply,6.00,"Allocation, no quote",BLOCKED
+USB cable and harness,5.00,"Allocations3+2, no quote",BLOCKED
+Original module-only prototype estimate,43.85,27.85 modules +16.00 allocations; excludes added carrier,"Historical planning estimate, not current carrier total"
+Carrier PCB and added components,,J1/mate/contacts/C1/C2/R1/D1/barePCB need quotes; avoid double-counting harness allocations,BLOCKED
+Current carrier hardware total,,Must be <USD50; cannot assert compliance without quotes,BLOCKED
+Shipping and tax,,All-in cost scope and quotes missing,BLOCKED
+Assembly and test labor/tools,,Separate from device parts; scope/cost unquoted,BLOCKED
+Backend recurring,,Deployment and existing hosting unknown,BLOCKED
+LINE recurring,,"Account plan, group size and usage unknown",BLOCKED

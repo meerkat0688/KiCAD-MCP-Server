@@ -1,0 +1,13 @@
+﻿net,controller,sensor_or_destination,voltage,direction,configuration,source,verification
+USB_5V,USB-C connector,Qualified USB supply,4.75-5.25V,Supply to controller,Only power input; battery and 5V/3V3 header injection unused,S01;IN-05,Design reviewed; physical test NOT RUN
+SENSOR_3V3,3V3,Pololu3415 VIN,3.3V,Controller rail to carrier,Do not substitute carrier VDD; no 5V VIN with direct I2C,S01;S02;S12,Silkscreen mapping verified; HW-02 NOT RUN
+GND,GND,Pololu3415 GND,0V,Common return,Short common ground; no isolated supplies,S01;S02,Physical continuity NOT RUN
+I2C_SDA,D4 / GPIO6,Pololu3415 SDA,3.3V carrier-side bus,Bidirectional open drain,100kHz initial; use carrier onboard pullups; verify waveform,S01;S02;S12,Pin map checked; rise-time NOT RUN
+I2C_SCL,D5 / GPIO7,Pololu3415 SCL,3.3V carrier-side bus,Controller open drain clock,100kHz; do not enable external JTAG on shared pins,S01;S02;S12,Pin map checked; waveform NOT RUN
+TOF_XSHUT_OPTION,D1 / GPIO3,Pololu3415 XSHUT,Carrier pullup to2.8V,Optional controller open drain,Drive low or high impedance only; never actively drive high,S01;S02;S12,Optional fifth wire; NOT RUN
+TOF_GPIO1,Not connected,Pololu3415 GPIO1,2.8V open drain output,Unused,Polling prototype; leave unconnected,S02,No MCU connection
+TOF_VDD,Not connected,Pololu3415 VDD,2.8V regulator output,Unused,Do not connect to3V3 while VIN is powered,S02,No MCU connection
+LOCAL_DIAGNOSTIC,USB-C native serial,Maintenance host,USB,Bidirectional,Status/calibration/logs; host replaces wall supply during service,S01;OPS-01,Firmware and access NOT RUN
+WIFI,Included external antenna,2.4GHz AP,RF,Bidirectional,Keep antenna out of metal obstruction; no LINE credentials on device,S01;IN-06,Coverage NOT RUN
+CARRIER_J1,A1 pad12/13/5/6,J1 pins1/2/3/4 =3V3/GND/SDA/SCL,3.3V,Power and I2C,"v0.3 carrier interface; Pololu end wired by silkscreen, not same numerical order",S01;S02;S14;S15,ERC/DRC/netlist checked separately; physical test NOT RUN
+CARRIER_STATUS,D2 / GPIO4 / A1 pad3,R1 1k toD1 anode; D1 cathodeGND,3.3V active high,Controller output,Added v0.3; does not use D1/GPIO3 optional XSHUT,S01;S18;S19,Firmware/brightness NOT RUN

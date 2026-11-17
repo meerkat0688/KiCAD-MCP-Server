@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img" aria-label="Prototype wiring by verified module labels">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#456179"/></marker></defs>
+<style>text{font-family:Arial,sans-serif;fill:#18334c}.box{fill:#f4f8fb;stroke:#adc3d5;stroke-width:2}.line{fill:none;stroke:#456179;stroke-width:2;marker-end:url(#arrow)}.small{font-size:16px}.head{font-size:23px;font-weight:bold}</style>
+<rect width="100%" height="100%" fill="white"/>
+
+<text x="40" y="46" font-size="30" font-weight="bold">Prototype wiring · connect by silkscreen labels</text>
+<text x="40" y="80" class="small">Logical diagram only; terminal positions are not physical connector pin order.</text>
+<rect class="box" x="60" y="130" width="300" height="340" rx="12"/><text x="85" y="170" class="head">Seeed XIAO ESP32C3</text>
+<rect class="box" x="710" y="130" width="330" height="340" rx="12"/><text x="735" y="170" class="head">Pololu 3415 carrier</text>
+<text x="100" y="225" font-size="20">3V3</text><text x="740" y="225" font-size="20">VIN (3.3 V)</text><path d="M360 219 H710" stroke="#d24a42" stroke-width="4"/>
+<text x="100" y="275" font-size="20">GND</text><text x="740" y="275" font-size="20">GND</text><path d="M360 269 H710" stroke="#34404a" stroke-width="4"/>
+<text x="100" y="325" font-size="20">D4 / GPIO6</text><text x="740" y="325" font-size="20">SDA</text><path d="M360 319 H710" stroke="#2879bc" stroke-width="4"/>
+<text x="100" y="375" font-size="20">D5 / GPIO7</text><text x="740" y="375" font-size="20">SCL</text><path d="M360 369 H710" stroke="#23865b" stroke-width="4"/>
+<text x="100" y="425" font-size="20">D1 / GPIO3 (optional)</text><text x="740" y="425" font-size="20">XSHUT (2.8 V pull-up)</text><path d="M360 419 H710" stroke="#9c6cc1" stroke-width="3" stroke-dasharray="8 5"/>
+<text x="385" y="445" class="small">Optional: LOW / high impedance only</text>
+<text x="60" y="515" class="small">Power controller only through USB-C. Leave sensor VDD and GPIO1 disconnected in this prototype.</text>
+<text x="60" y="550" class="small">Carrier I²C pull-ups follow VIN: keep VIN at 3.3 V. Start at 100 kHz with short wires.</text>
+<text x="60" y="585" class="small">Direct bench wiring reference. Carrier J1 uses four wires only; optional XSHUT is not fitted.</text>
+</svg>

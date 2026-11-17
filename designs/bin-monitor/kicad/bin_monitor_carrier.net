@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/cooperhu/AI Projects/KiCAD-MCP-Server/designs/bin-monitor/kicad/bin_monitor_carrier.kicad_sch</source>
+    <date>2026-11-17T16:33:41</date>
+    <tool>Eeschema 10.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Bin Monitor XIAO Carrier</title>
+        <company/>
+        <rev>v0.3 DRAFT</rev>
+        <date>2026-11-17</date>
+        <source>bin_monitor_carrier.kicad_sch</source>
+        <comment number="1" value="Review only - physical validation pending; no fabrication release"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>XIAO ESP32C3 / 113991054</value>
+      <footprint>BinMonitor:XIAO_ESP32C3_14P_THT</footprint>
+      <datasheet>https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/</datasheet>
+      <fields>
+        <field name="Manufacturer">Seeed Studio</field>
+        <field name="MPN">113991054</field>
+        <field name="Footprint">BinMonitor:XIAO_ESP32C3_14P_THT</field>
+        <field name="Datasheet">https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="BinMonitor" part="XIAO_ESP32C3_14P" description=""/>
+      <property name="Manufacturer" value="Seeed Studio"/>
+      <property name="MPN" value="113991054"/>
+      <property name="Sheetname" value="bin_monitor_carrier"/>
+      <property name="Sheetfile" value="bin_monitor_carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25509262-4cb4-4e54-ba9e-61651e609095</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C1">
+      <value>10uF 10V X5R</value>
+      <footprint>BinMonitor:C0805</footprint>
+      <datasheet>https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X5R1A106K085AB</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Manufacturer">TDK</field>
+        <field name="MPN">C2012X5R1A106K085AB</field>
+        <field name="Footprint">BinMonitor:C0805</field>
+        <field name="Datasheet">https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X5R1A106K085AB</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="MPN" value="C2012X5R1A106K085AB"/>
+      <property name="Sheetname" value="bin_monitor_carrier"/>
+      <property name="Sheetfile" value="bin_monitor_carrier.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ad7a736-9c57-4d54-bdb4-f6d885838a5e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100nF 16V X7R</value>
+      <footprint>BinMonitor:C0603</footprint>
+      <datasheet>https://www.murata.com/en-global/products/productdetail?partno=GRM188R71C104KA01%23</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Footprint">BinMonitor:C0603</field>
+        <field name="Datasheet">https://www.murata.com/en-global/products/productdetail?partno=GRM188R71C104KA01%23</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Sheetname" value="bin_monitor_carrier"/>
+      <property name="Sheetfile" value="bin_monitor_carrier.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2794a92-5d47-49b7-bf76-a3c12cfc946b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>APT1608SGC GREEN</value>
+      <footprint>BinMonitor:LED0603</footprint>
+      <datasheet>https://www.kingbrightusa.com/images/catalog/SPEC/APT1608SGC.pdf</datasheet>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="MPN">APT1608SGC</field>
+        <field name="Footprint">BinMonitor:LED0603</field>
+        <field name="Datasheet">https://www.kingbrightusa.com/images/catalog/SPEC/APT1608SGC.pdf</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer" value="Kingbright"/>
+      <property name="MPN" value="APT1608SGC"/>
+      <property name="Sheetname" value="bin_monitor_carrier"/>
+      <property name="Sheetfile" value="bin_monitor_carrier.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1602dc4-6708-4fa3-ba63-0385ba5ce78f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H1">
+      <value>M2 / 2.2mm</value>
+      <footprint>BinMonitor:M2_Hole</footprint>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">BinMonitor:M2_Hole</field>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="bin_monitor_carrier"/>
+      <property name="Sheetfile" value="bin_monitor_carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67acddc4-2a61-4b1a-84f7-9c13372be2a7</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H2">
+      <value>M2 / 2.2mm</value>
+      <footprint>BinMonitor:M2_Hole</footprint>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">BinMonitor:M2_Hole</field>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="bin_monitor_carrier"/>
+      <property name="Sheetfile" value="bin_monitor_carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5a5f935-168a-411f-8c21-d0b1cf395b73</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H3">
+      <value>M2 / 2.2mm</value>
+      <footprint>BinMonitor:M2_Hole</footprint>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">BinMonitor:M2_Hole</field>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="bin_monitor_carrier"/>
+      <property name="Sheetfile" value="bin_monitor_carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b21a504-2783-465d-88ba-0ff132a341dd</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H4">
+      <value>M2 / 2.2mm</value>
+      <footprint>BinMonitor:M2_Hole</footprint>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">BinMonitor:M2_Hole</field>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="bin_monitor_carrier"/>
+      <property name="Sheetfile" value="bin_monitor_carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b466f18-71d2-4e98-9756-193e692735bd</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>B4B-XH-A (SENSOR)</value>
+      <footprint>BinMonitor:JST_XH_1x04</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="Manufacturer">JST</field>
+        <field name="MPN">B4B-XH-A(LF)(SN)</field>
+        <field name="Footprint">BinMonitor:JST_XH_1x04</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="JST"/>
+      <property name="MPN" value="B4B-XH-A(LF)(SN)"/>
+      <property name="Sheetname" value="bin_monitor_carrier"/>
+      <property name="Sheetfile" value="bin_monitor_carrier.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0dcc9d48-9a8c-4036-b82c-ceeb248a67de</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>1k 1% 0.1W</value>
+      <footprint>BinMonitor:R0603</footprint>
+      <datasheet>https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Footprint">BinMonitor:R0603</field>
+        <field name="Datasheet">https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value="bin_monitor_carrier"/>
+      <property name="Sheetfile" value="bin_monitor_carrier.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7fe72c7-9d21-4978-948b-cb8d4a5503e7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP1">
+      <value>3V3</value>
+      <footprint>BinMonitor:TestPad_1p5</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">BinMonitor:TestPad_1p5</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="bin_monitor_carrier"/>
+      <property name="Sheetfile" value="bin_monitor_carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e80e80d9-d247-44b6-95c5-67c3a59aac24</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP2">
+      <value>GND</value>
+      <footprint>BinMonitor:TestPad_1p5</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">BinMonitor:TestPad_1p5</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="bin_monitor_carrier"/>
+      <property name="Sheetfile" value="bin_monitor_carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>577507a5-ca9f-4c7b-9667-b47bd6e59078</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP3">
+      <value>SDA</value>
+      <footprint>BinMonitor:TestPad_1p5</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">BinMonitor:TestPad_1p5</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="bin_monitor_carrier"/>
+      <property name="Sheetfile" value="bin_monitor_carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f30fbb30-77e2-457a-91b9-5b3fd838d332</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP4">
+      <value>SCL</value>
+      <footprint>BinMonitor:TestPad_1p5</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">BinMonitor:TestPad_1p5</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="bin_monitor_carrier"/>
+      <property name="Sheetfile" value="bin_monitor_carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9acf9c06-4efb-4b9d-90f9-947a5d15ead2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BinMonitor" part="XIAO_ESP32C3_14P">
+      <docs>https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/</docs>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">XIAO_ESP32C3_14P</field>
+        <field name="Footprint">BinMonitor:XIAO_ESP32C3_14P_THT</field>
+        <field name="Datasheet">https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="D0" type="bidirectional"/>
+        <pin num="2" name="D1" type="bidirectional"/>
+        <pin num="3" name="D2" type="bidirectional"/>
+        <pin num="4" name="D3" type="bidirectional"/>
+        <pin num="5" name="D4" type="bidirectional"/>
+        <pin num="6" name="D5" type="bidirectional"/>
+        <pin num="7" name="D6" type="bidirectional"/>
+        <pin num="8" name="D7" type="bidirectional"/>
+        <pin num="9" name="D8" type="bidirectional"/>
+        <pin num="10" name="D9/BOOT" type="bidirectional"/>
+        <pin num="11" name="D10" type="bidirectional"/>
+        <pin num="12" name="3V3_OUT" type="power_out"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="VBUS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BinMonitor">
+      <uri>${KIPRJMOD}/BinMonitor.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>${KICAD10_SYMBOL_DIR}/Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3" class="Default">
+      <node ref="A1" pin="12" pinfunction="3V3_OUT_12" pintype="power_out"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="2" name="GND" class="Default">
+      <node ref="A1" pin="13" pinfunction="GND_13" pintype="power_in"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="3" name="I2C_SCL" class="Default">
+      <node ref="A1" pin="6" pinfunction="D5_6" pintype="bidirectional"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="4" name="I2C_SDA" class="Default">
+      <node ref="A1" pin="5" pinfunction="D4_5" pintype="bidirectional"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="5" name="LED_A" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="LED_GPIO" class="Default">
+      <node ref="A1" pin="3" pinfunction="D2_3" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="unconnected-(A1-D0-Pad1)" class="Default">
+      <node ref="A1" pin="1" pinfunction="D0_1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="8" name="unconnected-(A1-D1-Pad2)" class="Default">
+      <node ref="A1" pin="2" pinfunction="D1_2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="9" name="unconnected-(A1-D3-Pad4)" class="Default">
+      <node ref="A1" pin="4" pinfunction="D3_4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="10" name="unconnected-(A1-D6-Pad7)" class="Default">
+      <node ref="A1" pin="7" pinfunction="D6_7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(A1-D7-Pad8)" class="Default">
+      <node ref="A1" pin="8" pinfunction="D7_8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(A1-D8-Pad9)" class="Default">
+      <node ref="A1" pin="9" pinfunction="D8_9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(A1-D9/BOOT-Pad10)" class="Default">
+      <node ref="A1" pin="10" pinfunction="D9/BOOT_10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(A1-D10-Pad11)" class="Default">
+      <node ref="A1" pin="11" pinfunction="D10_11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(A1-VBUS-Pad14)" class="Default">
+      <node ref="A1" pin="14" pinfunction="VBUS_14" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

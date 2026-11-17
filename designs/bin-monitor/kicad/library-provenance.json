@@ -1,0 +1,44 @@
+{
+  "seeed_footprints_url": "https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/New_XIAO_Series_Footprints.zip",
+  "seeed_symbols_url": "https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_SCH_Symbols.zip",
+  "pin_map": {
+    "1": "D0",
+    "2": "D1",
+    "3": "D2",
+    "4": "D3",
+    "5": "D4",
+    "6": "D5",
+    "7": "D6",
+    "8": "D7",
+    "9": "D8",
+    "10": "D9/BOOT",
+    "11": "D10",
+    "12": "3V3_OUT",
+    "13": "GND",
+    "14": "VBUS"
+  },
+  "adaptations": [
+    "14 edge/header pins only; omit underside JTAG/battery contacts",
+    "GPIO bidirectional; 3V3 power_out; GND power_in",
+    "Seeed DIP pad centers unchanged",
+    "THT drill1.0mm pad1.9mm; actual header fit still requires verification",
+    "Move duplicate module silk to fab; courtyard includes USB outline",
+    "Remove nonportable and unrelated vendor3D model references"
+  ],
+  "source_sha256": {
+    "Seeed_Studio_XIAO_Series.kicad_sym": "bb93d63f7e33e5ffa5666b076d09e784c2a5c63fe5f4ae36a16f12736c38e3cc",
+    "footprints.zip": "671cb119639e489091b87a64e070d4aba1f22860ddfdbecc85ff143c0c295e28",
+    "XIAO-ESP32-C3-DIP.kicad_mod": "350beef2da3538fb9e7a11bf6b98356588b373e332e7c8bd5f978a33cf5353ba",
+    "symbols.zip": "e80bc5e41b427ed5428e37ceebf0258a1b37f312f93135c29f5ffd898b8bfdf5",
+    "XIAO-ESP32-C3-SMD.kicad_mod": "f850def2f4829bd58a1a7f1773277de398930232a521d6a9607d8550aded3784"
+  },
+  "kicad_standard_copies": {
+    "JST_XH_1x04": "Connector_JST.pretty/JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod",
+    "C0805": "Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod",
+    "C0603": "Capacitor_SMD.pretty/C_0603_1608Metric.kicad_mod",
+    "R0603": "Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+    "LED0603": "LED_SMD.pretty/LED_0603_1608Metric.kicad_mod",
+    "TestPad_1p5": "TestPoint.pretty/TestPoint_Pad_D1.5mm.kicad_mod",
+    "M2_Hole": "MountingHole.pretty/MountingHole_2.2mm_M2.kicad_mod"
+  }
+}

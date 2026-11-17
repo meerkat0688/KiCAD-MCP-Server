@@ -1,0 +1,37 @@
+{
+  "executed_at": "2026-11-17T16:33:41.866859+08:00",
+  "kicad_version": "10.0.8",
+  "design_revision": "v0.3 DRAFT",
+  "erc_violations": 0,
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "netlist_assertions": 21,
+  "footprints": 14,
+  "board_nominal_mm": [
+    50,
+    38
+  ],
+  "copper_layers": 2,
+  "thickness_mm": 1.6,
+  "physical_acceptance": "NOT RUN",
+  "hardware_inventory": "Neither module available",
+  "cost_acceptance": "BLOCKED; carrier costs unquoted",
+  "fabrication_release": false,
+  "sha256": {
+    "bin_monitor_carrier.kicad_sch": "71547dc8550c10db9db613207fe9a346534e450ec074191e2eb75771f393f176",
+    "bin_monitor_carrier.kicad_pcb": "1b005612e5a081c5c534070be179b21241f8870f2925eca27ab632a2f7bbb321",
+    "bin_monitor_carrier.kicad_pro": "1f6377dc15b3281f62807da3722502db25ad4743f9b967aac0b48e4dcd4376b8",
+    "BinMonitor.kicad_sym": "29714bb1b09a40ef953b4033dde5a1b08e6e6bff72ce520223804e5058755a7a",
+    "fp-lib-table": "b1bb17ef1a5a02e4e5e84a994db624cb43393e1f0ab1cc498df4f20e7413150b",
+    "sym-lib-table": "a41a434d6c410694042722c279d1a2884a514783fbc2b844310818f59994d4b7",
+    "BinMonitor.pretty/M2_Hole.kicad_mod": "697ccc703c9276e143aa81d6159c56e6adf6603368399de491e1254750480cda",
+    "BinMonitor.pretty/XIAO_ESP32C3_14P_THT.kicad_mod": "9f84e7f5ecd7e8c392bd6e00c25f61a802e3f34460d4ac6dc4a5107639a9de17",
+    "BinMonitor.pretty/JST_XH_1x04.kicad_mod": "3f2c63a903279b3bb0e5ddf009e67fc22938ef6e31c499c9d1a221af40b713ab",
+    "BinMonitor.pretty/LED0603.kicad_mod": "b54909d8b756c467eddae5be1365061ab40b86f9dddc2c86b489caac2a3d0fba",
+    "BinMonitor.pretty/C0805.kicad_mod": "9505148359967780744f6fa5687455b4be435ccb8cb1aefd8b70a6808de88bd6",
+    "BinMonitor.pretty/TestPad_1p5.kicad_mod": "550fe6c70b3f0727cd5c916895121fa0257224b1570b4bc7634f2f9652cd786b",
+    "BinMonitor.pretty/R0603.kicad_mod": "b771f85c5f3470686e587100c26a57b00bf43b78c99c929477add52ddf48bcc2",
+    "BinMonitor.pretty/C0603.kicad_mod": "bd420d1a856014b279b6ed2ce1f63e08ccbcf571c244ca786ac4c795c6dd04db"
+  }
+}
